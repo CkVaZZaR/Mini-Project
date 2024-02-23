@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/radiation">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/radiation"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/clip_image">
+
+                    </ImageView>
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/human">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/human"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/clip_image1">
+
+                    </ImageView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/gun">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/gun"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/clip_image2">
+
+                    </ImageView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/money">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/money"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/clip_image3">
+
+                    </ImageView>
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            app:cardCornerRadius="30dp"
+            android:outlineAmbientShadowColor="@color/transparent"
+            android:outlineSpotShadowColor="@color/transparent">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/p1">
+            
+        </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:text="Министр финансов Скуфовский"
+            android:gravity="center">
+
+        </TextView>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textSize="16dp"
+            android:text="Мы должны укрепить наши оборонительные сооружения. Разрешите мне начать строительство?">
+            
+        </TextView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/noButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                app:cardCornerRadius="30dp"
+                android:layout_gravity="bottom"
+                android:outlineSpotShadowColor="@color/transparent"
+                android:outlineAmbientShadowColor="@color/transparent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Нет"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/yesButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                app:cardCornerRadius="30dp"
+                android:outlineAmbientShadowColor="@color/transparent"
+                android:outlineSpotShadowColor="@color/transparent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Да"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day XXXX"
+            android:layout_gravity="bottom">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
