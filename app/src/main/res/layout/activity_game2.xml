@@ -13,14 +13,43 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/radSmall"
+                        android:layout_width="7dp"
+                        android:layout_height="7dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="100dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/radBig"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="100dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+                </FrameLayout>
 
                 <FrameLayout
                     android:layout_width="wrap_content"
@@ -48,7 +77,38 @@
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/humSmall"
+                        android:layout_width="7dp"
+                        android:layout_height="7dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="100dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/humBig"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="100dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+                </FrameLayout>
+
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -74,7 +134,38 @@
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/gunSmall"
+                        android:layout_width="7dp"
+                        android:layout_height="7dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="100dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/gunBig"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="100dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+                </FrameLayout>
+
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -100,7 +191,38 @@
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/monSmall"
+                        android:layout_width="7dp"
+                        android:layout_height="7dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="7dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/monBig"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        app:cardBackgroundColor="@color/black"
+                        android:outlineSpotShadowColor="@color/transparent"
+                        android:outlineAmbientShadowColor="@color/transparent"
+                        app:cardCornerRadius="5dp"
+                        android:layout_gravity="center">
+
+                    </androidx.cardview.widget.CardView>
+                </FrameLayout>
+
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
